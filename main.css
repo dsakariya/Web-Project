@@ -111,11 +111,9 @@ footer p {
 .head-content {
 	width: 100%;
 }
-
-.icon_facebook {
+.icon_facebook{
 	height: 39px;
 }
-
 .head {
 	padding-top: 1%;
 	color: #51c9c2;
@@ -128,7 +126,13 @@ footer p {
 .photos {
 	text-align: center;
 }
-
+.icon{
+	height: 40px;
+	
+}
+.photos{
+	text-align: center;
+}
 .photos a {
 	text-decoration: none;
 	color: black;
@@ -310,7 +314,6 @@ textarea {
 		height: auto;
 		margin: 1%;
 	}
-
 	#food {
 		display: flex;
 		justify-content: space-around;
