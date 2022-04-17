@@ -169,8 +169,9 @@ footer p {
 	transition: 0.3s;
 	border-radius: 5px;
 	margin: 1.5%;
-	width: 47%;
+	width: 100%;
 }
+
 
 .photoborder {
 	border-radius: 2%;
@@ -238,8 +239,8 @@ img {
 /* ----------------------Css for form */
 .form_container {
 	background-color: #ffffff;
-	width: 500px;
-	height: 500px;
+	width: 50%;
+	height: 50%;
 	margin: 1em auto;
 	border-radius: 1.5em;
 	box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
@@ -262,9 +263,12 @@ img {
 	align-items: center;
 }
 
-.fields label,
-textarea {
+.fields label
+ {
 	flex-basis: 45%;
+}
+.fields textarea{
+	flex-basis: 52%;
 }
 
 .form_container h2 {
@@ -280,14 +284,15 @@ textarea {
 	border-radius: 5px;
 	font-weight: bold;
 	border: none;
-	background-color: #FDF6F0;
-	color: #C3542B;
+	background-color: #C3542B;
+	color: #FDF6F0;
 }
 
 .button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 5%;
 }
 
 input[type="text"],
@@ -296,12 +301,18 @@ input[type="email"] {
 	height: 25px;
 	font-size: 15px;
 	border: none;
+	padding: 5px;
 }
 
 textarea {
 	border: none;
-}
+	width: 70%;
 
+}
+::placeholder{
+	font-family:'Times New Roman', Times, serif;
+	padding:1px;
+}
 @media screen and (min-width: 900px) {
 	.top-nav ul {
 		display: flex;
@@ -355,4 +366,13 @@ textarea {
 		flex-wrap: wrap;
 		width: 100%;
 	}
+
+	.card {
+		/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		transition: 0.3s;
+		border-radius: 5px;
+		margin: 1.5%; */
+		width: 45%;
+	}
+	
 }
