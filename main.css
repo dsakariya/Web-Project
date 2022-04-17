@@ -4,13 +4,14 @@
 }
 
 body {
-	background-color: #fff;
+	background-color: #DCF0F2;
 	margin: 0;
-	font-family: "Redressed", "Sans-Sarif";
+	font-family: 'Open Sans', sans-serif;
+	;
 }
 
 .top-nav {
-	background-color: #aec9e5;
+	background-color: #112a46;
 	text-align: center;
 	width: 100%;
 }
@@ -25,7 +26,7 @@ body {
 }
 
 .top-nav a {
-	color: #112a46;
+	color: #ffffff;
 	text-decoration: none;
 	font-size: 120%;
 }
@@ -33,11 +34,13 @@ body {
 .heading {
 	color: #112a46;
 	font-size: 200%;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .Logo {
-	padding: 5%;
+	padding: 3%;
+	color: #0367A6;
+	justify-content: center;
 }
 
 .Logo a {
@@ -49,6 +52,8 @@ body {
 	width: 100%;
 	border-radius: 5px;
 	height: 120px;
+	background-color: #f0f1ee;
+	margin-bottom: 1%;
 }
 
 .quotes a {
@@ -81,12 +86,6 @@ main {
 	padding: 2%;
 }
 
-#food {
-	padding: 2%;
-	background-color: #bfd3ec;
-	border: none;
-}
-
 p {
 	font-family: "oxygen";
 }
@@ -98,16 +97,17 @@ footer {
 
 footer p {
 	display: inline;
+	color:#ffffff;
 }
 
 .name {
 	font-family: "Redressed";
 	font-size: 125%;
-	color: #bfd3ec;
+	color: white;
 }
 
 .p {
-	color: #bfd3ec;
+	color: white;
 }
 
 .head-content {
@@ -213,12 +213,13 @@ img {
 
 .photograph {
 	width: 100%;
-	border:1px;
+	border: 1px;
 	border: 5px solid;
 }
-.photograph:hover{
-	-webkit-box-shadow: 7px 4px 35px 11px rgba(8,7,7,0.86); 
-box-shadow: 7px 4px 35px 11px rgba(8,7,7,0.86);
+
+.photograph:hover {
+	-webkit-box-shadow: 7px 4px 35px 11px rgba(8, 7, 7, 0.86);
+	box-shadow: 7px 4px 35px 11px rgba(8, 7, 7, 0.86);
 }
 
 .coloumn {
@@ -269,11 +270,11 @@ box-shadow: 7px 4px 35px 11px rgba(8,7,7,0.86);
 	align-items: center;
 }
 
-.fields label
- {
+.fields label {
 	flex-basis: 45%;
 }
-.fields textarea{
+
+.fields textarea {
 	flex-basis: 52%;
 }
 
@@ -315,10 +316,12 @@ textarea {
 	width: 70%;
 
 }
-::placeholder{
-	font-family:'Times New Roman', Times, serif;
-	padding:1px;
+
+::placeholder {
+	font-family: 'Times New Roman', Times, serif;
+	padding: 1px;
 }
+
 @media screen and (min-width: 900px) {
 	.top-nav ul {
 		display: flex;
@@ -380,5 +383,5 @@ textarea {
 		margin: 1.5%; */
 		width: 45%;
 	}
-	
+
 }
