@@ -25,13 +25,13 @@ body {
 }
 
 .top-nav a {
-	color: #112A46;
+	color: #112a46;
 	text-decoration: none;
 	font-size: 120%;
 }
 
 .heading {
-	color: #112A46;
+	color: #112a46;
 	font-size: 200%;
 	font-weight: normal;
 }
@@ -49,7 +49,6 @@ body {
 	width: 100%;
 	border-radius: 5px;
 	height: 120px;
-
 }
 
 .quotes a {
@@ -94,7 +93,7 @@ p {
 
 footer {
 	padding: 5%;
-	background-color: #112A46;
+	background-color: #112a46;
 }
 
 footer p {
@@ -121,7 +120,15 @@ footer p {
 
 .head {
 	padding-top: 1%;
-	color: #51C9C2;
+	color: #51c9c2;
+}
+
+.icon {
+	height: 40px;
+}
+
+.photos {
+	text-align: center;
 }
 
 .icon {
@@ -146,24 +153,23 @@ footer p {
 
 .photos {
 	padding: 2%;
-	border: solid #3894A1;
+	border: solid #3894a1;
 	border-width: 2px;
 	margin: 1%;
-	background-color: #F0F1EE;
+	background-color: #f0f1ee;
 	border-radius: 2%;
 }
 
 .photos:hover {
 	box-shadow: 0 8px 8px 0 rgba(0, 0, 0.5, 0.5);
-
 }
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
-	width: 100%;
 	border-radius: 5px;
-	margin-bottom: 5%;
+	margin: 1.5%;
+	width: 47%;
 }
 
 .photoborder {
@@ -221,16 +227,23 @@ img {
 	max-width: 100%;
 }
 
+#quotes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 60%;
+}
 
 /* ----------------------Css for form */
 .form_container {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	width: 500px;
 	height: 500px;
 	margin: 1em auto;
 	border-radius: 1.5em;
 	box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
-	background-image: url('images/9.jpg');
+	background-image: url("images/9.jpg");
 	background-size: cover;
 	margin-bottom: 5%;
 }
@@ -257,7 +270,7 @@ textarea {
 .form_container h2 {
 	text-align: center;
 	padding-top: 5%;
-	color: #C3542B;
+	color: #c3542b;
 }
 
 .submit {
@@ -302,7 +315,7 @@ textarea {
 
 	.photos {
 		padding: 2%;
-		border: solid #3894A1;
+		border: solid #3894a1;
 		border-width: 2px;
 		width: 30%;
 		height: auto;
@@ -333,6 +346,13 @@ textarea {
 	.photoborder {
 		border-radius: 2%;
 		height: 300px;
+		width: 100%;
+	}
+
+	#quotes {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
 		width: 100%;
 	}
 }
