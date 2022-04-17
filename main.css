@@ -1,0 +1,316 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #fff;
+	margin: 0;
+	font-family: "Redressed", "Sans-Sarif";
+}
+
+.top-nav {
+	background-color: #aec9e5;
+	text-align: center;
+	width: 100%;
+}
+
+.top-nav li {
+	padding: 2%;
+	list-style: none;
+}
+
+.top-nav ul {
+	padding: 0%;
+}
+
+.top-nav a {
+	color: #112A46;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+.heading {
+	color: #112A46;
+	font-size: 200%;
+	font-weight: normal;
+}
+
+.Logo {
+	padding: 5%;
+}
+
+.Logo a {
+	text-decoration: none;
+}
+
+.quotes {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	width: 100%;
+	border-radius: 5px;
+	height: 120px;
+
+}
+.quotes a {
+	text-decoration: none;
+	color: black;
+}
+
+.quotes:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stmt {
+	padding-left: 5%;
+	padding-top: 2%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+
+.author {
+	padding-right: 5%;
+	text-align: right;
+	padding-top: 1%;
+}
+
+main {
+	width: 95%;
+	margin: auto;
+	padding: 2%;
+}
+
+#food {
+	padding: 2%;
+	background-color: #bfd3ec;
+	border: none;
+}
+
+p {
+	font-family: "oxygen";
+}
+
+footer {
+	padding: 5%;
+	background-color: #112A46;
+}
+
+footer p {
+	display: inline;
+}
+
+.name {
+	font-family: "Redressed";
+	font-size: 125%;
+	color: #bfd3ec;
+}
+
+.p {
+	color: #bfd3ec;
+}
+
+.head-content {
+	width: 100%;
+}
+
+.head {
+	text-align: center;
+	padding-top: 1%;
+	color: #51C9C2;
+}
+
+.photos a {
+	text-decoration: none;
+	color: black;
+}
+.photos p{
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+}
+
+.photos {
+	padding: 2%;
+	border: solid #3894A1;
+	border-width: 2px;
+	margin: 1%;
+	background-color: #F0F1EE;
+	border-radius: 2%;
+}
+
+.photos:hover {
+	box-shadow: 0 8px 8px 0 rgba(0, 0, 0.5, 0.5);
+
+}
+
+.photos img {
+	height: 600px;
+	width: 100%;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+.photoborder {
+	border-radius: 2%;
+	transition: transform 2s;
+}
+.photoborder:hover{
+	transform: scale(1.1); 
+	margin-bottom: 2%;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+img {
+	border-radius: 5px 5px 0 0;
+}
+
+.container {
+	padding: 2px 16px;
+}
+
+.quotes_stmt {
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.writer {
+	text-align: right;
+}
+
+.image {
+	width: 100%;
+	height: 550px;
+}
+
+.photograph {
+	width: 100%;
+}
+
+.coloumn {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 20px;
+	align-items: center;
+}
+
+.background {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+	max-width: 100%;
+}
+
+
+/* ----------------------Css for form */
+.form_container {
+	background-color: #FFFFFF;
+	width: 500px;
+	height: 500px;
+	margin: 1em auto;
+	border-radius: 1.5em;
+	box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+	background-image: url('images/9.jpg');
+	background-size: cover;
+	margin-bottom: 5%;
+}
+.form_container:hover{
+	-webkit-box-shadow: 18px 19px 17px 4px rgba(0,0,0,0.71); 
+box-shadow: 18px 19px 17px 4px rgba(0,0,0,0.71);
+}
+
+.fields
+{
+	margin: 5%;
+	font-size: larger;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	color: #C3542B;
+	display: flex;
+	align-items: center;
+}
+.fields label,textarea{
+flex-basis: 45%;
+}
+
+.form_container h2{
+	text-align: center;
+	padding-top: 5%;
+	color: #C3542B;
+}
+.submit{
+	height: 40px;
+	width: 150px;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: bold;
+	border: none;
+	background-color: #FDF6F0;
+	color:#C3542B;
+}
+.button
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+input[type="text"],input[type="email"]
+{
+	width:50%;
+	height: 25px;
+	font-size: 15px;
+}
+
+@media screen and (min-width: 900px) {
+	.top-nav ul {
+		display: flex;
+		justify-content: center;
+	}
+
+	.Logo {
+		display: flex;
+		align-items: center;
+	}
+
+	.photos {
+		padding: 2%;
+		border: solid #3894A1;
+		border-width: 2px;
+		width: 30%;
+		height: auto;
+		margin: 1%;
+	}
+
+	.photos img {
+		height: 300px;
+		width: 100%;
+	}
+	
+	#food {
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 100px;
+	}
+
+	.head_img {
+		height: 300px;
+		width: 450px;
+		margin-right: 20px;
+	}
+
+	.head-content {
+		width: 48%;
+	}
+
+	#content {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.photoborder {
+		border-radius: 2%;
+	}
+}
