@@ -239,7 +239,7 @@ box-shadow: 18px 19px 17px 4px rgba(0,0,0,0.71);
 	align-items: center;
 }
 .fields label,textarea{
-flex-basis: 45%;
+flex-basis: 43%;
 }
 
 .form_container h2{
