@@ -65,12 +65,13 @@ body {
 }
 
 .quotes {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
 	width: 100%;
 	border-radius: 5px;
 	height: 120px;
-	background-color: #f0f1ee;
+	background-color: #c4e7eb;
 	margin-bottom: 1%;
+	margin-top: 3%;
 }
 
 .quotes a {
@@ -84,15 +85,14 @@ body {
 
 .stmt {
 	padding-left: 5%;
-	padding-top: 2%;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-top: 3%;
+	font-family:sans-serif;
 	text-align: center;
-
-
+	font-size: 20px;
 }
 
 .author {
-	padding-right: 5%;
+	padding-right: 50%;
 	text-align: right;
 	padding-top: 1%;
 }
@@ -136,17 +136,23 @@ footer p {
 }
 
 .head {
-	padding-top: 1%;
+	padding-top: 10%;
 	color: #112a46;
+	font-weight: 900;
+	font-size: 180%;
 }
-
 .icon {
 	height: 40px;
 }
 
 .photos {
 	text-align: center;
-	box-shadow: #A3A3A3 5px 5px 2px 0px;
+	box-shadow: #A3A3A3 5px 5px 2px 0px; 
+	transition: transform .3s ease-out;
+	margin-bottom: 5%;
+}
+.photos:hover{
+	transform: translate(0, -5px);
 }
 
 .icon {
@@ -167,11 +173,9 @@ footer p {
 
 .photos {
 	padding: 2%;
-	/* border: solid #3894a1; */
-	/* border-width: 2px; */
 	margin: 1%;
 	background-color: #f0f1ee;
-	border-radius: 2%;
+	border-radius: 10px;
 }
 
 .photos:hover {
@@ -188,7 +192,7 @@ footer p {
 
 
 .photoborder {
-	border-radius: 2%;
+	border-radius: 10px;
 	transition: transform 2s;
 	height: 600px;
 	width: 100%;
@@ -353,7 +357,7 @@ textarea {
 		border-width: 2px; */
 		width: 30%;
 		height: auto;
-		margin: 1%;
+		margin: 3%;
 	}
 	.head_img {
 		height: 300px;
