@@ -51,6 +51,7 @@ body {
 	height: 120px;
 
 }
+
 .quotes a {
 	text-decoration: none;
 	color: black;
@@ -66,7 +67,7 @@ body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
 
-	
+
 }
 
 .author {
@@ -113,25 +114,31 @@ footer p {
 .head-content {
 	width: 100%;
 }
-.icon_facebook{
+
+.icon_facebook {
 	height: 39px;
 }
+
 .head {
 	padding-top: 1%;
 	color: #51C9C2;
 }
-.icon{
+
+.icon {
 	height: 40px;
-	
+
 }
-.photos{
+
+.photos {
 	text-align: center;
 }
+
 .photos a {
 	text-decoration: none;
 	color: black;
 }
-.photos p{
+
+.photos p {
 	font-weight: bold;
 	font-size: large;
 	padding-top: 10%;
@@ -158,16 +165,19 @@ footer p {
 	border-radius: 5px;
 	margin-bottom: 5%;
 }
+
 .photoborder {
 	border-radius: 2%;
 	transition: transform 2s;
 	height: 600px;
 	width: 100%;
 }
-.photoborder:hover{
-	transform: scale(1.1); 
+
+.photoborder:hover {
+	transform: scale(1.1);
 	margin-bottom: 2%;
 }
+
 .card:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
 }
@@ -224,30 +234,33 @@ img {
 	background-size: cover;
 	margin-bottom: 5%;
 }
-.form_container:hover{
-	-webkit-box-shadow: 18px 19px 17px 4px rgba(0,0,0,0.71); 
-box-shadow: 18px 19px 17px 4px rgba(0,0,0,0.71);
+
+.form_container:hover {
+	-webkit-box-shadow: 18px 19px 17px 4px rgba(0, 0, 0, 0.71);
+	box-shadow: 18px 19px 17px 4px rgba(0, 0, 0, 0.71);
 }
 
-.fields
-{
+.fields {
 	margin: 5%;
 	font-size: larger;
-	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	color: #C3542B;
 	display: flex;
 	align-items: center;
 }
-.fields label,textarea{
-flex-basis: 43%;
+
+.fields label,
+textarea {
+	flex-basis: 45%;
 }
 
-.form_container h2{
+.form_container h2 {
 	text-align: center;
 	padding-top: 5%;
 	color: #C3542B;
 }
-.submit{
+
+.submit {
 	height: 40px;
 	width: 150px;
 	text-align: center;
@@ -255,22 +268,24 @@ flex-basis: 43%;
 	font-weight: bold;
 	border: none;
 	background-color: #FDF6F0;
-	color:#C3542B;
+	color: #C3542B;
 }
-.button
-{
+
+.button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-input[type="text"],input[type="email"]
-{
-	width:50%;
+
+input[type="text"],
+input[type="email"] {
+	width: 50%;
 	height: 25px;
 	font-size: 15px;
 	border: none;
 }
-textarea{
+
+textarea {
 	border: none;
 }
 
@@ -293,6 +308,7 @@ textarea{
 		height: auto;
 		margin: 1%;
 	}
+
 	#food {
 		display: flex;
 		justify-content: space-around;
